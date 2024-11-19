@@ -22,7 +22,7 @@ BOT_NAME = getenv("Risex_music")
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("", None)
+MONGO_DB_URI = getenv("mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
